@@ -81,25 +81,14 @@ This repository contains both original code and code adapted from third-party
 implementations. Do not assume that the whole repository is available under a
 single permissive license.
 
-- The Torque Clustering-related files include code translated or adapted from
-  the Torque Clustering implementation by Jie Yang:
-  https://github.com/Cognet-74/TorqueClusteringPy
-- The adapted Torque Clustering files include a Creative Commons
-  Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
-  notice. Commercial use may be restricted by that license.
-
-See `THIRD_PARTY_NOTICES.md` for the current provenance notes. Before releasing
-or redistributing this repository, review each file and upstream dependency so
-that the repository-level license, notices, and redistribution terms are
-consistent with the included code.
-
-## Acknowledgments
-
-Parts of the Torque Clustering implementation in this repository reuse or adapt
-code from Cognet-74/TorqueClusteringPy:
+The Torque Clustering-related files reuse or adapt code from the Torque
+Clustering implementation by Jie Yang:
 https://github.com/Cognet-74/TorqueClusteringPy
 
-The following files are treated as reused or adapted from that repository:
+The adapted Torque Clustering files include a Creative Commons
+Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+notice. Commercial use may be restricted by that license. The following files
+are treated as reused or adapted from that repository:
 
 - `TorqueClustering_weighted.py`
 - `utils/Final_label.py`
@@ -110,3 +99,8 @@ The following files are treated as reused or adapted from that repository:
 - `utils/mindisttwinsloc.py`
 - `utils/ps2psdist.py`
 - `utils/uniqueZ.py`
+
+See `THIRD_PARTY_NOTICES.md` for the current provenance notes. Before releasing
+or redistributing this repository, review each file and upstream dependency so
+that the repository-level license, notices, and redistribution terms are
+consistent with the included code.
